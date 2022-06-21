@@ -1,0 +1,208 @@
+**O QUE É INTERNET** 
+
+
+**Termos chave**
+Cache - quando você acessa um site, ele deixa algumas coisas salvas no seu computador.
+
+HTML - linguagem de marcação da internet
+
+HTTP - protocolo
+
+link - ligação
+
+URL - endereço de qualquer coisa
+
+keylogger - vírus que fica capturando tudo o que é digitado
+
+phishing - roubo de dados através de simulação de ser outra pessoa
+
+cookies - pequenos registros da sua atividade que podem ser utilizados por outros sites
+
+firewall - impedir acesso indevido ao computador
+
+latência - o tempo que o dado leva para sair da origem e chegar no destino
+
+
+**TCP/IP, PORTAS, ROTEADORES, SWITCHES E MODEMS**
+
+TCP/IP (Transmission Control Protocol/Internet Protocol) - Protocolos de comunicação entre computadores em rede.
+
+Comunicação entre dispositivos passa por 4 camadas antes de começar a transmissão:
+
+- Física (ex: placa de rede - por onde a comunicação vai chegar ao teu computador)
+- Rede (ex: IP)
+- Transporte (ex: TCP, UDP)
+- Aplicação (ex: FTP, SMTP, HTTP)
+
+
+**TCP E UDP**
+
+São duas formas de conexão entre dispositivos com a internet.
+
+- **UDP:**
+    - Forma de conexão rápida
+    - Não confiável pois há confirmação de envio nem de recebimento
+    - EX: as livestream, onde pouco importa quem está recebendo e se está recebendo.
+- **TCP:**
+    - Ele é um pouco mais lendo, porém focado na conexão
+    - Faz um handshake (há confirmação de envio e recebimento)
+    - Os dados são enviados em determinada ordem e há integridade na transmissão de dados
+    - EX: aplicativos de mensagem de texto
+
+Portas
+
+Portinhas por onde os dados saem e entram
+
+20: FTP (apenas para envio de arquivos)
+
+22: SSH (conexão segura entre dois computadores para execução de comandos)
+
+25: SMTP (envio de e-mails)
+
+53: DNS (tradutor de nome para IP)
+
+80: HTTP (requisição simples da internet)
+
+443: HTTPS (requisição segura da internet)
+
+Roteadores, Switches e modems
+
+Modem - aparelho que modula e demodula sinais.
+
+Hardware que converte dados em um formato que passa a ser transmitido de um computador para outro e lido por outro
+
+Roteador - distribui internet para um ou mais dispositivos de uma rede, podendo fazer comunicação entre redes também.
+
+Tráfego enorme na rede, por mandar para todos.
+
+Switch - distribui internet para um ou mais dispositivos de uma rede. Distribui apenas para os computadores que requisitaram.
+
+
+**CELULAR, INTERNET E OUTROS DISPOSITIVOS**
+
+Bluetooth  - conexão ponto-a-ponto
+ 
+
+**BROWSER, SITES, APLICATIVOS E WEBSERVER**
+
+Browser: interpreta as LP e as transforma em algo compreensível por um humano
+
+Sabe identificar várias LP, linguagens de marcação e conteúdo multimídia
+
+Hoje existem plug-ins, add-ons, que ajudam na navegação
+
+Cache e cookies
+
+Sites: página da internet que pode servir para diversos propósitos. Podem ser feitos em diversas LP.
+
+Sites estáticos x dinâmicos:
+
+	- Estáticos: eram feitos puramente em HMTL
+
+	- Aplicativo: software que é executado no navegador.
+
+	- Aplicativos de celular: muitas vezes é uma espécie de navegador.
+
+	- Hoje em dia quase não há diferença entre site e aplicativo. Menos sites e mais páginas na internet com funções de aplicativos.
+
+	- E-commerce: comércio eletrônico. Sites de compra e venda com sistema de pagamento que pode ser exterior ao site (picpay, boleto, pagseguro, paypal, mercado pago, etc)
+
+Web-server: 
+- Estático: servidor físico onde são armazenados arquivos, softwares e/ou banco de dados.
+- Dinâmico: softwares que estão presentes no servidor físico.
+    - Podem ser para armazenar arquivos (file server), aplicações (application server), banco de dados (database) e tudo junto e misturado.
+        - Um site (aplicativo) precisa estar hospedado em um servidor para poder ser acessado, os dados precisam estar em um servidor.
+
+Web-service: interface disponível para fazer requisições e consultas em bancos de dados inacessíveis (EX: correios)
+
+
+
+**O QUE SÃO STACKS**
+
+São pilhas de tecnologia - um conjunto de softwares necessários e suficientes para executar um aplicativo/programa.
+
+Podem incluir LPs
+
+Ambientes e ferramentas de interação com o app/sw
+
+Capacidade e limitação de performance
+
+Pontos fortes e fracos do app/sw
+
+
+**Importância:**
+
+- Os líderes de projetos precisam das informações das equipes de desenvolvimento
+- Os desenvolvedores precisam saber as limitações e capacidades das ferramentas e ambientes que têm disponíveis
+- Sistemas, banco de dados, linguagens de programação, protocolos de comunicação
+- Estratégias de negócio
+- Maturidade, desenvolvimento da empresa e dos programadores
+- Contratações, planos de mitigações de riscos, aumento da capacidade, uso dos dados
+
+
+**Divisão de Stacks**
+
+- Front-end
+    - Onde trabalha: Site, sw, app, web service, interface, UI, UX
+    - Lógica de programação, HTML, CSS, jQuery/JS/AJAX, PHP, Bootstrap
+
+- Back-end
+    - Servidores, banco de dados
+    - Entre interface e banco de dados, regras de negócios, validações
+    - MySQL, Oracle, protocolos de comunicação, PHP, Java, node.js
+
+- Full stack
+    - Profissional que sabe trabalhar em todas as camadas das tecnologias de desenvolvimento/execução de um app/sw
+
+
+**Termos comuns**
+
+	- 404
+	- Algoritmo - sequência de passos para se executar uma tarefa
+	- ALT - texto alternativo
+	- API - faz com que o site consifga executar mais funções ou em outro lugar
+	- Aplicação
+	- Back-end
+	- Biblioteca/dll - conjunto de ferramentas disponíveis
+	- Bootstrap
+	- Breakpoints - pontos chave quando montamos uma tela para algum dispositivo ou pontos de parada do debug
+	- Bug	
+	- Cache	
+	- Código - instruções feitas em alguma LP
+	- Controle de versão
+	- Cookies
+	- Degub - tentar descobrir o que está causando o problema ou ver se está tudo certo no código
+	- Deploy
+	- Design adaptativo/responsivo - sites que conseguem se adaptar a qualquer proporão
+	- DNS
+	- Documentação - interna (comentários que deixamos no código) e externa (manual do usuário)
+	- Domínio
+	- DPI - proporção de pontos da tela
+	- Editor de texto
+	- Estrutura de dados
+	- Favicon
+	- Fontes
+	- Framework - caixa de ferramenta disponível para desenvolvimento o sw
+	- Front-end
+	- FTP - forma de comunicação quase exclusivamente para troca de arquivos
+	- Full-stack
+	- Github/SVN/CVS - mais famosos controladores de versão
+	- HTTP(S)
+	- IP
+	- Linguagem
+	- Meta tags - tags HTML que ficam no header que tem funções específicas
+	- Método ágil
+	- Mobile
+	- MVC - arquitetura do software que você separa a estrutura de dados do view e controler
+	- MVP - mínimo produto viável para disponibilizar para o cliente ou para testes
+	- MySQL
+	- Pixel
+	- Resolução
+	- Servidor
+	- Sistema operacional/SO
+	- Solução
+	- SSL
+	- UI
+	- UX
+	- Versão
+	- WYSIWYG - What You See Is What You Get
